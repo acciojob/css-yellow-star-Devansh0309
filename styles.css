@@ -1,9 +1,18 @@
 /*  your css code here. If applicable */
 .star-shape{
-	width:30px;
-	height:30px;
-	polygon(50% 0%,
-                   100% 50%,
-                   50% 100%,
-                    0% 50%);
+	width:50px;
+	height:50px;
+	clip-path:polygon(15px calc(20px * sqrt(3)), 
+					  20px calc(15px * sqrt(3)),
+					 30px calc(15px * sqrt(3)),
+					 25px calc(10px * sqrt(3)),
+					 30px calc(5px * sqrt(3)),
+					 20px calc(5px * sqrt(3)),
+					 15px 0px,
+					 10px calc(5px * sqrt(3)),
+					 0px calc(5px * sqrt(3)),
+					 5px calc(10px * sqrt(3)),
+					 0px calc(15px * sqrt(3)),
+					 10px calc(15px * sqrt(3)));
+	background:yellow;
 }
